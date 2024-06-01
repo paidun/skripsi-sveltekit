@@ -2,6 +2,7 @@
 	"name": "testing-svelte",
 	"version": "0.0.1",
 	"private": true,
+	"type": "module",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build",
@@ -24,5 +25,9 @@
 		"svelte": "^4.2.7",
 		"tailwindcss": "^3.4.1",
 		"vite": "^5.0.3"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-node": "^5.0.1",
+		"express": "^4.19.2"
 	}
 }
